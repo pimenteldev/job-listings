@@ -1,0 +1,7 @@
+export const GET_LIST_JOBS_BY_ID = 'GET_LIST_JOBS_BY_ID';
+export const GET_LIST_JOBS_BY_TAG = 'GET_LIST_JOBS_BY_TAG';
+export const GET_LIST_OF_TAGS = 'GET_LIST_OF_TAGS';
+export const SET_LIST_DATA = 'SET_LIST_DATA';
+export const CLEAR_LIST_BY_TAGS = 'CLEAR_LIST_BY_TAGS';
+export const REMOVE_TAG_BY_TAGS = 'REMOVE_TAG_BY_TAGS';
+export const GET_JOB_BY_ID = 'GET_JOB_BY_ID';

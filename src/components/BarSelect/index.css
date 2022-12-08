@@ -1,0 +1,122 @@
+.bar_select{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    z-index:9999;
+}
+
+
+
+.bar_select_flex{
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 10px 15px 0.1rem hsla(180, 29%, 50%, 0.212);
+}
+
+.bar_select_flex_dark{
+    background-color: var(--dark);
+}
+
+.bar_select_flex_light{
+    background-color: var(--light);
+}
+
+.tags_select{
+    color: var(--primary);
+    background-color: var(--bg);
+    font-size:12px;
+    font-weight: 700;
+    margin-right:10px;
+    margin-bottom:5px;
+    border-radius: 5px;
+    padding-left:5px;
+    z-index: 9999; 
+    cursor:pointer;
+    display:flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.tags_select_x{
+    background-color: var(--primary);
+    color:var(--light);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-left:5px;
+    border-radius: 0 5px 5px 0;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tags_select_x:hover{
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+.list_tags{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.item{
+    color: var(--primary);
+    background-color: #eaf9f6;
+    font-weight: 700;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    z-index: 9999;
+    cursor:pointer
+}
+.btn_cleartags{
+    background-color: transparent;
+    border: none;
+    outline-style: none;
+    cursor:pointer;
+    font-weight:700;
+    color: var(--dark);
+    margin-bottom:5px;
+    padding: 5px;
+    border-radius:5px;
+}
+
+.btn_cleartags:hover{
+    text-decoration:underline
+}
+
+.btn_cleartags_dark{
+    background-color: var(--primary);
+    color: var(--light)
+}
+
+.btn_cleartags_light{
+    background-color: var(--light);
+}
+
+.btn_cleartags_light:hover{
+    color: var(--primary)
+}
+
+
+@media screen and (max-width: 800px) {
+    .bar_select_flex{
+        width: 90%;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1600px) {
+    .bar_select_flex{
+        width: 80%;
+    }
+}

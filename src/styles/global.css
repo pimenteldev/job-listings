@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "spartan";
+  src: url("../../public/fonts/Spartan-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "spartan700";
+  src: url("../../public/fonts/Spartan-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+:root{
+  --primary: hsl(180, 29%, 50%);
+  --dark: #1a2833;
+  --light: hsl(0deg 0% 98%);
+  --bg: hsl(180, 52%, 96%);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;  
+}
+
+html{
+  overflow-x: hidden; 
+  overflow-y: scroll;
+}
+
+html,body {
+  font-family: 'spartan',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
